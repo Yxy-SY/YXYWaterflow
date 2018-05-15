@@ -13,6 +13,7 @@
 		B1E4414520A9E2CA00227B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E4414420A9E2CA00227B19 /* Assets.xcassets */; };
 		B1E4414820A9E2CA00227B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E4414620A9E2CA00227B19 /* LaunchScreen.storyboard */; };
 		B1E4414B20A9E2CA00227B19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E4414A20A9E2CA00227B19 /* main.m */; };
+		B1E4415A20AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E4415920AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B1E4414720A9E2CA00227B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1E4414920A9E2CA00227B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1E4414A20A9E2CA00227B19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1E4415820AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYCollectionViewWaterFlowLayout.h; sourceTree = "<group>"; };
+		B1E4415920AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYCollectionViewWaterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B1E4414620A9E2CA00227B19 /* LaunchScreen.storyboard */,
 				B1E4414920A9E2CA00227B19 /* Info.plist */,
 				B1E4414A20A9E2CA00227B19 /* main.m */,
+				B1E4415820AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.h */,
+				B1E4415920AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.m */,
 			);
 			path = YXYWaterflow;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E4415A20AA711A00227B19 /* YXYCollectionViewWaterFlowLayout.m in Sources */,
 				B1E4414020A9E2C800227B19 /* ViewController.m in Sources */,
 				B1E4414B20A9E2CA00227B19 /* main.m in Sources */,
 				B1E4413D20A9E2C800227B19 /* AppDelegate.m in Sources */,
